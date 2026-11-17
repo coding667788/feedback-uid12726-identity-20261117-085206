@@ -1,0 +1,16 @@
+{
+  "schema": "evidence-reconstruction/cases-v1",
+  "case_id": "scenario-core-minimal",
+  "seed": 29,
+  "drift_ppm": 0,
+  "sources": [
+    {
+      "id": "host_web01",
+      "path": "host_web01.jsonl"
+    },
+    {
+      "id": "host_db01",
+      "path": "host_db01.jsonl"
+    }
+  ]
+}

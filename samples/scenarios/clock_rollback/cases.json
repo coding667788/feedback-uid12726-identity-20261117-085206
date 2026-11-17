@@ -1,0 +1,12 @@
+{
+  "schema": "evidence-reconstruction/cases-v1",
+  "case_id": "scenario-clock-rollback",
+  "seed": 11,
+  "drift_ppm": 0,
+  "sources": [
+    {
+      "id": "host_web01_b1",
+      "path": "host_web01_b1.jsonl"
+    }
+  ]
+}

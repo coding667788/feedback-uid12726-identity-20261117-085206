@@ -1,0 +1,3 @@
+{"type": "host_key", "host": "web01", "public_key": "f4f60ea810b2f1e52613f3e9078545410d4050787fdac22198bddc05d2b04636"}
+{"type": "boot", "host": "web01", "boot_id": "b1", "calibration": {"offset_lo_ms": -1500, "offset_hi_ms": 1500, "mono_earliest_ns": 0}, "sig": "cddd4e501afd16bc0a9819eaab4a8bf83f59c1469591fc865c169a35c867af91f01f7f17957e33a2d2651dbea942791f4f79d31412094ac761fec853d2fdee07"}
+{"type": "event", "id": "ovl-web-001", "host": "web01", "boot_id": "b1", "seq": 1, "mono_ns": 10000000000, "wall": "2026-01-01T00:00:10Z", "kind": "local", "sig": "abcb57f5a498f7d2e550783875812c36cfafd405087290aa6535044d2218a7c784311490a6d1b1bca6de55503391e81fc4fe30724638511fac62a7460fc29500"}

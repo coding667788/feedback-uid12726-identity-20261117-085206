@@ -1,0 +1,37 @@
+{
+  "schema": "evidence-reconstruction/cases-v1",
+  "case_id": "sample-main",
+  "seed": 20260101,
+  "drift_ppm": 0,
+  "manifest": "manifest.json",
+  "sources": [
+    {
+      "id": "host_web01_b1",
+      "path": "host_web01_b1.jsonl"
+    },
+    {
+      "id": "host_web01_b2",
+      "path": "host_web01_b2.jsonl"
+    },
+    {
+      "id": "host_db01_b1",
+      "path": "host_db01_b1.jsonl"
+    },
+    {
+      "id": "host_db01_b1_copy",
+      "path": "host_db01_b1_copy.jsonl"
+    },
+    {
+      "id": "host_jump01_b1",
+      "path": "host_jump01_b1.jsonl"
+    },
+    {
+      "id": "host_jump01_b1_tampered",
+      "path": "host_jump01_b1_tampered.jsonl"
+    },
+    {
+      "id": "host_web01_b1_conflict",
+      "path": "host_web01_b1_conflict.jsonl"
+    }
+  ]
+}

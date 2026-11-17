@@ -1,0 +1,12 @@
+{
+  "schema": "evidence-reconstruction/cases-v1",
+  "case_id": "scenario-reboot",
+  "seed": 13,
+  "drift_ppm": 0,
+  "sources": [
+    {
+      "id": "host_db01",
+      "path": "host_db01.jsonl"
+    }
+  ]
+}

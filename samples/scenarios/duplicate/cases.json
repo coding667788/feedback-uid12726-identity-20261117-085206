@@ -1,0 +1,20 @@
+{
+  "schema": "evidence-reconstruction/cases-v1",
+  "case_id": "scenario-duplicate",
+  "seed": 17,
+  "drift_ppm": 0,
+  "sources": [
+    {
+      "id": "pass1",
+      "path": "pass1.jsonl"
+    },
+    {
+      "id": "pass2_crlf",
+      "path": "pass2_crlf.jsonl"
+    },
+    {
+      "id": "pass3_altered",
+      "path": "pass3_altered.jsonl"
+    }
+  ]
+}

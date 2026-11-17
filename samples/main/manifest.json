@@ -1,0 +1,66 @@
+{
+  "schema": "evidence-collection/manifest-v1",
+  "case_id": "sample-main",
+  "collector": "sim-agent/1.0 (offline test harness)",
+  "collected_at": "2026-01-01T03:00:00Z",
+  "notes": "Three simulated hosts. Not from real devices.",
+  "sources": [
+    {
+      "id": "host_web01_b1",
+      "path": "host_web01_b1.jsonl",
+      "sha256": "116a6b808bbe328f9292507b7e19f7e9d7d0b40cded92c3390171fbcafa366a7",
+      "bytes": 1775,
+      "host": "web01",
+      "role": "event-log"
+    },
+    {
+      "id": "host_web01_b2",
+      "path": "host_web01_b2.jsonl",
+      "sha256": "be4f1d461edda209f34c6b257259dcb09eff3417d2be3fb9a9e9779733ee9ff5",
+      "bytes": 1092,
+      "host": "web01",
+      "role": "event-log"
+    },
+    {
+      "id": "host_db01_b1",
+      "path": "host_db01_b1.jsonl",
+      "sha256": "7cf5e9f733c70b80616963929dee1b86ab6ecbe793c30dc6af89932deb0a1448",
+      "bytes": 1437,
+      "host": "db01",
+      "role": "event-log"
+    },
+    {
+      "id": "host_db01_b1_copy",
+      "path": "host_db01_b1_copy.jsonl",
+      "sha256": "7cf5e9f733c70b80616963929dee1b86ab6ecbe793c30dc6af89932deb0a1448",
+      "bytes": 1437,
+      "host": "db01",
+      "role": "event-log"
+    },
+    {
+      "id": "host_jump01_b1",
+      "path": "host_jump01_b1.jsonl",
+      "sha256": "922ae683d176918d83dfeb230976a6b37714f482589081311dcf0258407d765b",
+      "bytes": 1373,
+      "host": "jump01",
+      "role": "event-log"
+    },
+    {
+      "id": "host_jump01_b1_tampered",
+      "path": "host_jump01_b1_tampered.jsonl",
+      "sha256": "a0ada88cc88ad2922f9175b387d15fe78cb1ce1a10582e1d177a948c5b22e42e",
+      "bytes": 1373,
+      "host": "jump01",
+      "role": "event-log"
+    },
+    {
+      "id": "host_web01_b1_conflict",
+      "path": "host_web01_b1_conflict.jsonl",
+      "sha256": "f46abd151db23b73b80c44e1f396600401e730096d041bf4316551ff57eb455a",
+      "bytes": 802,
+      "host": "web01",
+      "role": "event-log"
+    }
+  ],
+  "seal": "hmac-sha256:12cab4aaaf86031f41b04a01c633983b663831bd603b26281fb03bdb743042df"
+}

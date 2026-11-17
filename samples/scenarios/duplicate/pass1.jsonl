@@ -1,0 +1,4 @@
+{"type": "host_key", "host": "jump01", "public_key": "e4c0bfbe712a03a14b2840a631f4e6b4ae611f1d7c1210447c9a5802e5c990e5"}
+{"type": "boot", "host": "jump01", "boot_id": "b1", "calibration": {"offset_lo_ms": 0, "offset_hi_ms": 0, "mono_earliest_ns": 0}, "sig": "264b90674d3012ae2f73a8db9c82104f455d9b42b469bc7712e4c50535c2e558a326afa43e2b2a4c1b0e4d187caea50b11acd01b35616f41adc9e3d95e429308"}
+{"type": "event", "id": "dup-001", "host": "jump01", "boot_id": "b1", "seq": 1, "mono_ns": 1000000000, "wall": "2026-01-01T00:00:01Z", "kind": "local", "sig": "21240aeacbb90a3d5603e6bdb745bd692f92682386d1fb60ff278735444cebcc0594e07cfe608193db6b481e40ce72ba2788ab5db92432999d5b956a3f2af20f"}
+{"type": "event", "id": "dup-002", "host": "jump01", "boot_id": "b1", "seq": 2, "mono_ns": 2000000000, "wall": "2026-01-01T00:00:02Z", "kind": "local", "sig": "bf6f3cdfc333336526a55abadd645548f79f7c88f2d815829ba4a44dee3837bd594115bd9fa968034f6384b76d381d895dcfee872f952b4351a439498d281001"}

@@ -1,0 +1,22 @@
+{
+  "note": "Simulation keys only. Never use these for anything real.",
+  "sources": {
+    "web01": {
+      "seed_hex": "a4a4ad59257f63096619ab6addae353c5c272571a9aedbce434cfa6ef8344c29",
+      "public_key_hex": "f4f60ea810b2f1e52613f3e9078545410d4050787fdac22198bddc05d2b04636"
+    },
+    "db01": {
+      "seed_hex": "e26703771ced75269a022f19d03288a9cc2f4b519b9b4d4afff4e9b27e2e80ea",
+      "public_key_hex": "08812fdac515b6e43fc161c6811dc61750e006ca3a0b4f9c2a29bcdb0680de0d"
+    },
+    "jump01": {
+      "seed_hex": "012d61e953532028c6bd1c104a62125bd6588b303939e5272d249e729b993f5e",
+      "public_key_hex": "e4c0bfbe712a03a14b2840a631f4e6b4ae611f1d7c1210447c9a5802e5c990e5"
+    }
+  },
+  "manifest_seal": {
+    "algorithm": "hmac-sha256",
+    "env": "EVIDENCE_SEAL_KEY",
+    "sample_value": "sample-only-seal-key-not-a-secret"
+  }
+}
